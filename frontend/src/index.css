@@ -1,0 +1,97 @@
+body {
+  background-color: #e0e0e0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.publishBox {
+  background-color: #fff;
+  border-radius: 1em;
+  border: 1px solid #bdbdbd;
+}
+
+.avatar {
+  width: 3em;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.btnPublish {
+  color: green;
+}
+
+.btnCongratulations {
+  color: maroon;
+}
+
+.btnEvent {
+  color: red;
+}
+
+.btnSell {
+  color: blue;
+}
+
+.btnAssistance {
+  color: #ffb300;
+}
+
+.modal-header {
+  background-color: blueviolet;
+  padding: .5em;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: blueviolet;
+  border-color: blueviolet;
+}
+
+.btn-check:active+.btn-outline-primary,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.myIcons {
+  width: 1em;
+  color: red;
+}
+
+.nameUser {
+  color: blueviolet;
+}
+
+.wrapperUserInfo {
+  display: inline-grid;
+  margin: 0 auto;
+  /* margin-top: -1em; */
+  position: absolute;
+  text-align: center;
+}
+
+.someText {
+  color: gray;
+}
+
+.postActions {
+  color: #757575;
+}
+
+.postActions div {
+  transition: all .2s linear;
+}
+
+.postActions div:hover {
+  transform: scale(1.2)
+}
